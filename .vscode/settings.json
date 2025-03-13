@@ -1,0 +1,20 @@
+{
+    "java.project.sourcePaths": [
+        "HashMap",
+        "LeetCode",
+        "Arrays",
+        "DivideAndConquer",
+        "DynamicProgramming",
+        "Graph",
+        "GreedyAlgorithm",
+        "Trees",
+        "Stacks",
+        "Strings",
+        "Sorting",
+        "Random",
+        "Patterns",
+        "Queue",
+        "LinkList"
+    ],
+    "java.project.referencedLibraries": []
+}
