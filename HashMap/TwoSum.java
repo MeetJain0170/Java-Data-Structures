@@ -21,4 +21,4 @@ public class TwoSum {
             System.out.print(num+" ");
         }
     }
-}
+}   
