@@ -3,16 +3,24 @@ public class KnapsachDP {
         int n=weights.length;
         int[][]dp=new int[n+1][capacity+1];
 
-        for(int i=1; i<n; i++){
+        for(int i=1; i<=n; i++){
             int wt=weights[i-1];
             int val=values[i-1];
             for(int w=0; w<=capacity; w++){
-                if(wt<capacity){
-                    dp[i][w]=Math.max(dp[i-1][w],val+dp[i+1][w-wt]);
+                if(wt<=w){
+                    dp[i][w]=Math.max(dp[i-1][w],val+dp[i-1][w-wt]);
                 }else{
                     dp[i][w]=dp[i-1][w];
                 }
             }
         }return dp[n][capacity];
+    }
+    
+    public static void main(String[] args) {
+    int[] weights = {2, 3, 4, 5};
+    int[] values = {3, 4, 5, 6};
+    int capacity = 5;
+    int maxValue = knapsack(weights, values, capacity);
+    System.out.println("Maximum value in knapsack = " + maxValue);
     }
 }
