@@ -6,8 +6,7 @@ public class longestValidParanthesis {
         for(int i=0; i<s.length(); i++){
             if(s.charAt(i)=='('){
                 leftCount++;
-            }
-            else if(leftCount>0){
+            }else if(leftCount>0){
                 dp[i]=dp[i-1]+2;
                 dp[i]+=(i-dp[i]>=0?dp[i-dp[i]]:0);
                 res=Math.max(res,dp[i]);
@@ -15,8 +14,6 @@ public class longestValidParanthesis {
             }
         }return res;
     }
-    public static void main(String[] args) {
-        String s="()()()";
-        System.out.println(longest(s));
-    }
 }
+
+    
