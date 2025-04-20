@@ -34,19 +34,24 @@ public class NQueens {
         return result;
     }
     public static void printBoards(List<List<Integer>> solutions, int n) {
+        if (solutions.isEmpty()) {
+            System.out.println("No solutions found for n = " + n);
+            return;
+        }
         int count = 1;
         for (List<Integer> board : solutions) {
             System.out.println("Solution Number #: " + count++);
             for (int row : board) {
                 for (int i = 1; i <= n; i++) {
-                    if (i == row) System.out.print("👸 ");
+                    if (i == row) System.out.print("Q ");
                     else System.out.print(". ");
                 }
                 System.out.println();
             }
             System.out.println();
         }
-    }    
+    }
+       
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Give the dimension of the board: ");
