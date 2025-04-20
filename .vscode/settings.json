@@ -15,7 +15,8 @@
         "Patterns",
         "Queue",
         "LinkList",
-        "Backtracking"
+        "Backtracking",
+        "PatternMatching"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
