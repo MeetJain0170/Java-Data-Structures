@@ -36,7 +36,7 @@ public class NQueens {
     public static void printBoards(List<List<Integer>> solutions, int n) {
         int count = 1;
         for (List<Integer> board : solutions) {
-            System.out.println("Solution #" + count++);
+            System.out.println("Solution Number #: " + count++);
             for (int row : board) {
                 for (int i = 1; i <= n; i++) {
                     if (i == row) System.out.print("👸 ");
