@@ -39,7 +39,7 @@ public class NQueens {
             System.out.println("Solution #" + count++);
             for (int row : board) {
                 for (int i = 1; i <= n; i++) {
-                    if (i == row) System.out.print("Q ");
+                    if (i == row) System.out.print("👸 ");
                     else System.out.print(". ");
                 }
                 System.out.println();
