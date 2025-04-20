@@ -14,7 +14,8 @@
         "Random",
         "Patterns",
         "Queue",
-        "LinkList"
+        "LinkList",
+        "Backtracking"
     ],
     "java.project.referencedLibraries": []
 }
