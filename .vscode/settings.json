@@ -1,22 +1,23 @@
 {
     "java.project.sourcePaths": [
-        "HashMap",
-        "LeetCode",
-        "Arrays",
-        "DivideAndConquer",
-        "DynamicProgramming",
-        "Graph",
-        "GreedyAlgorithm",
         "Trees",
-        "Stacks",
         "Strings",
+        "Stacks",
         "Sorting",
         "Random",
-        "Patterns",
         "Queue",
+        "Patterns",
+        "PatternMatching",
         "LinkList",
+        "LeetCode",
+        "HashMap",
+        "GreedyAlgorithm",
+        "Graph",
+        "DynamicProgramming",
+        "DivideAndConquer",
         "Backtracking",
-        "PatternMatching"
+        "Arrays",
+        "BranchBound"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
