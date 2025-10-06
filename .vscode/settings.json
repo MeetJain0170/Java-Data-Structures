@@ -15,9 +15,11 @@
         "Graph",
         "DynamicProgramming",
         "DivideAndConquer",
+        "BranchBound",
+        "Balanced_Trees",
         "Backtracking",
         "Arrays",
-        "BranchBound"
+        "Advanced_Topics"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
